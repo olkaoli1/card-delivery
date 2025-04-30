@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       app:
-        image: ghcr.io/netology-code/app-card-delivery:latest
+        image: ghcr.io/netology-code/app-card-delivery:1.0 
         ports:
           - 9999:9999
     steps:
